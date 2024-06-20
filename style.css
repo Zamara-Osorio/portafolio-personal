@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+}
+header {
+    background-color: hsl(212, 71%, 45%);
+    width: 100%;
+    height: 18rem;
+    display: flex;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    font-size: 12px;
+    
+}
+.name{
+    text-align: center;
+}
+.header-zam{
+    width: 50%;
+}
+.img-zamara {
+    width: 9rem;
+    height: 9rem;
+    margin: 10%;
+}
+.titulo{
+    margin-left: 10%;
+    width: 50%;
+    padding: 10px;
+    text-align: right;
+   
+}
+.sena{
+    width: 3.5rem;
+    background-color: rgb(200, 245, 200);
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+.title-projects{
+    margin-top: 2.0rem;
+}
+.projects{
+    display: flex;
+    margin-left: 10%;
+}
+hr{
+    margin-top: 1rem;
+    width: 80%;
+    height: 6px;
+    background-color: rgb(33, 180, 106);
+    margin-left: 10%;
+}
+.project{
+    background-color: #dfd6d6;
+    padding: 10px;
+    display: flex;
+    margin-top: 20px;
+    width: 20rem;
+    border-radius: 2rem;
+
+    
+}
+.img-project{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2rem;
+}
+
+.referencias{
+    display: flex;
+    margin-right: 10%;
+}
+hr{
+    margin-top: 1rem;
+    width: 85%;
+    height: 9px;
+    background-color: rgb(112, 240, 112);
+    margin-right: 15%;
+}
+
+.referencias {
+    display: flex;
+    flex-direction: column;
+    align-items:right;
+  }
+  
+  .referencia-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .referencia1 {
+    border: groove;
+    border-color: black;
+    background-color: rgb(148, 231, 180);
+    width: 9rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    margin: 10px;
+    
+  }
+
+  .progress-container {
+    width: 100%;
+    background-color: #23cb66;
+    border-radius: 20px;
+    margin-top: 1rem;
+   
+    
+}
+
+.progress-bar {
+    height: 25px;
+    width: 0;
+    background-color: #105718;
+    border-radius: 25px;
+  
+}
+ .img-logos{
+    width: 6rem;
+    height: 7rem;
+ }
+ .logos{
+    display: flex;
+    justify-content: space-around;
+ }
+
+  
+  
+  
+ 
+
+  
